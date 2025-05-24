@@ -1,0 +1,19 @@
+import { ScheduledTask, TaskFn } from "./tasks/scheduled-task";
+export type Options = {
+    name?: string;
+    timezone?: string;
+    noOverlap?: boolean;
+    maxExecutions?: number;
+};
+export declare function schedule(expression: string, func: TaskFn | string, options?: Options): ScheduledTask;
+export declare function createTask(expression: string, func: TaskFn | string, options?: Options): ScheduledTask;
+export declare function validate(expression: string): boolean;
+export { ScheduledTask } from './tasks/scheduled-task';
+export type { TaskFn, TaskContext, TaskOptions } from './tasks/scheduled-task';
+export interface NodeCron {
+    schedule: typeof schedule;
+    createTask: typeof createTask;
+    validate: typeof validate;
+}
+export declare const nodeCron: NodeCron;
+export default nodeCron;
