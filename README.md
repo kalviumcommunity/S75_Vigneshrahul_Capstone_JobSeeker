@@ -130,3 +130,5 @@ Interview Preparation Toolkit (Common questions, tips, and best practices).
 This project provides a secure and user-friendly platform for job seekers to manage their applications efficiently. The Smart Follow-Up Reminder System makes it unique by helping users stay on top of their job applications, improving response rates and increasing hiring chances. Future improvements can include email notifications, advanced filtering, analytics, and integrations with job portals.
 
 
+Frontend Deployment Link:
+https://capstonejobseeker.netlify.app/
