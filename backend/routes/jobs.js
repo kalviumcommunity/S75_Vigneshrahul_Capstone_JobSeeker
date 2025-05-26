@@ -7,7 +7,7 @@ router.use(auth);
 
 router.post('/', async (req, res) => {
   const job = await Job.create({ ...req.body, createdBy: req.userId });
-  res.json(job);
+  res.status(201).json(job);
 });
 
 router.get('/', async (req, res) => {
