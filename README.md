@@ -132,3 +132,7 @@ This project provides a secure and user-friendly platform for job seekers to man
 
 Frontend Deployment Link:
 https://capstonejobseeker.netlify.app/
+
+
+Backend Deployment Link:
+https://s75-vigneshrahul-capstone-jobseeker.onrender.com
